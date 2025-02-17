@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.kertas_a4 {
+    width: 21cm;
+    height: 29.7cm;
+    background-color: white;
+    padding: 2cm 2cm 2cm 2cm;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12pt;
+    margin: auto;
+}
+.date{
+    position: absolute;
+    top: 0.5cm;
+    right:2cm;
+    font-size: 12pt;
+    font-weight: normal;
+}
+.header {
+    text-align: left;
+}
+.content {
+    text-align: justify;
+}
+.signature {
+    margin-top: 2cm;
+    text-align: right;
+}
